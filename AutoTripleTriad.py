@@ -137,7 +137,7 @@ def drag_to_target(non_blue_center, blue_center):
 class ScreenCaptureWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("屏幕检测与拖拽")
+        self.setWindowTitle("自动幻卡AutoTripleTriad")
         self.setGeometry(100, 100, 900, 700)
 
         self.image_label = QLabel(self)
